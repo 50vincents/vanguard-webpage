@@ -1,0 +1,117 @@
+/* */
+.banner {
+  display: flex;
+}
+
+.banner-left {
+  flex: 0.5;
+  padding: 40px 20px;
+  font-family: 'Open Sans';
+}
+
+.banner-title {
+  color: darkred;
+  font-size: 50px;
+}
+
+.banner-desc {
+  color: rgb(38, 43, 43);
+  font-size: 60px;
+}
+
+.banner-span {
+  text-decoration: underline;
+  color: darkred;
+  font-weight: bold;
+}
+
+.banner-span:hover {
+  cursor: pointer; 
+}
+
+.banner-details {
+  font-size: 14px;
+}
+
+.banner-buttons {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+
+.banner-button {
+  border-radius: 30px;
+  padding: 15px 20px;
+  margin-right: 20px;
+  background-color: darkred;
+  color: white;
+  font-weight: bold;
+  border: 2px solid darkred;
+  transition: 0.5s;
+}
+
+.banner-otherbutton {
+  border-radius: 30px;
+  padding: 15px 20px;
+  background-color: rgb(38, 43, 43);
+  color: white;
+  font-weight: bold;
+  border: 2px solid rgb(38, 43, 43);;
+  transition: 0.5s;
+}
+
+.banner-otherbutton:hover {
+  color: rgb(38, 43, 43);
+  border: 2px solid rgb(38, 43, 43);
+  background-color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.banner-button:hover {
+  background-color: white;
+  color: darkred;
+  cursor: pointer;
+  border: 2px solid darkred;
+  transition: 0.5s;
+}
+
+.banner-right {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+  justify-content: center;
+}
+
+.banner-row {
+  display: flex;
+}
+
+.banner-row-container {
+  padding: 20px;
+}
+
+.banner-row-title {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.banner-row-number {
+  font-size: xx-large;
+  font-family: 'Montserrat';
+}
+
+.banner-row-date {
+  font-style: italic;
+  color: gray;
+  font-size: small;
+  font-family: 'Montserrat';
+}
+
+.banner-row-details {
+  font-family: 'Open Sans';
+  font-size: 30px;
+}

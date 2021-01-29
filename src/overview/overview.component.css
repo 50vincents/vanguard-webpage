@@ -1,0 +1,128 @@
+.overview-header {
+  padding: 40px 20px;
+  font-family: 'Open Sans';
+  color: rgb(38, 43, 43);
+}
+
+.overview-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.overview-details {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+/* */
+.overview-container {
+  display: flex;
+  color: rgb(38, 43, 43);
+  padding: 0 20px;
+}
+
+.overview-left {
+  flex: 0.6;
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.overview-facts {
+  display: flex;
+  flex-direction: column;
+}
+
+.overview-facts-header {
+  font-family: 'Open Sans';
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.overview-facts-row, .overview-trade-row {
+  display: flex;
+}
+
+.overview-facts-box, .overview-trade-box {
+  flex: 0.5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+}
+
+.overview-facts-title, .overview-trade-title {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.overview-facts-numbers, .overview-trade-numbers {
+  font-size: xx-large;
+  font-family: 'Montserrat';
+}
+
+.overview-facts-date, .overview-trade-date {
+  font-style: italic;
+  color: gray;
+  font-size: small;
+  font-family: 'Montserrat';
+}
+
+.overview-facts-details, .overview-trade-details {
+  font-family: 'Open Sans';
+  font-size: 20px;
+}
+
+/* */
+
+.overview-trade {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid lightgray;
+}
+
+.overview-trade-header {
+  font-family: 'Open Sans';
+  font-size: 30px;
+  font-weight: bold;
+  padding: 40px 0;
+}
+
+
+/* */
+.overview-right {
+  flex: 0.5;
+  border-top: 1px solid lightgray;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.overview-invest {
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.overview-invest-title, .overview-fund-title {
+  font-family: 'Open Sans';
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.overview-invest-details, .overview-fund-details {
+  font-family: 'Open Sans';
+  padding: 10px 0px;
+}
+
+.overview-fund {
+  border-top: 1px solid lightgray;
+  padding: 40px;
+}
+
+
+
+
+

@@ -1,0 +1,23 @@
+/* */
+.bar {
+  display: flex;
+  background-color: rgb(38, 43, 43);
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+}
+
+.bar-option {
+  padding: 30px 25px;
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: normal;
+  border-bottom: 3px solid rgb(38, 43, 43);
+}
+
+.bar-option:hover {
+  color: gray;
+  cursor: pointer;
+}
+

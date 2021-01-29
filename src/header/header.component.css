@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Open Sans';
+}
+
+.header-left {
+  padding: 15px 20px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.header-right {
+  display: flex;
+}
+
+.header-option {
+  padding: 15px 20px;
+  font-size: 12px;
+}
+
+/* */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  font-family: 'Open Sans';
+}
+
+.navbar-options {
+  display: flex;
+  flex: 0.8;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgrey;
+}
+
+.navbar-search {
+
+}
+
+.navbar-logo {
+  object-fit: contain;
+  width: 100px;
+  padding: 25px 20px;
+  margin-right: 15px;
+}
+
+.navbar-option {
+  padding: 25px 20px;
+}
